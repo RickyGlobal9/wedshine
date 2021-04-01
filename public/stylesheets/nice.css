@@ -1,0 +1,120 @@
+/* https://codepen.io/yatingondha/pen/pZXemL */
+
+/* Select */
+
+.icon_select_mate {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 16px;
+    height: 22px;
+    transition: all 275ms;
+}
+
+.select_mate {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    color: #777;
+    font-weight: 300;
+    background-color: #fff;
+    box-shadow: 1px 2px 10px -2px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    transition: all 375ms ease-in-out;
+    /* Oculto el elemento select */
+}
+
+.select_mate select {
+    position: absolute;
+    overflow: hidden;
+    height: 0px;
+    opacity: 0;
+    z-index: -1;
+}
+
+.cont_list_select_mate {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.cont_select_int {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    overflow: hidden;
+    height: 0px;
+    width: 100%;
+    background-color: #fff;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 0px 0px 3px 3px;
+    box-shadow: 1px 4px 10px -2px rgba(0, 0, 0, 0.2);
+    transition: all 375ms ease-in-out;
+}
+
+.cont_select_int li {
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    list-style-type: none;
+    padding: 10px 20px;
+    margin: 0px;
+    transition: all 275ms ease-in-out;
+    display: block;
+    cursor: pointer;
+}
+
+.cont_select_int li:last-child {
+    border-radius: 3px;
+    border-bottom: 0px;
+}
+
+.cont_select_int .active {
+    color: #ff4d4d;
+    background-color: #ffefef;
+}
+
+.cont_select_int li:hover {
+    color: #ff4d4d;
+    background-color: #ffefef;
+}
+
+.selecionado_opcion {
+    padding: 15px 20px;
+    width: 96%;
+    display: block;
+    margin: 0px;
+    cursor: pointer;
+}
+
+/* Zoom */
+
+.zoom-effect-container {
+    position: relative;
+    width: 100%;
+    height: 224px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.image-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.zoom-effect-container:hover .image-card img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}

@@ -1,0 +1,329 @@
+/* @media only screen and (max-width: 600px) {
+    Extra small devices (phones, 600px and down)
+}
+
+@media only screen and (min-width: 600px) {
+    Small devices (portrait tablets and large phones, 600px and up)
+}
+
+@media only screen and (min-width: 768px) {
+    Medium devices (landscape tablets, 768px and up)
+}
+
+@media only screen and (min-width: 992px) {
+    Large devices (laptops/desktops, 992px and up)
+}
+
+@media only screen and (min-width: 1200px) {
+    Extra large devices (large laptops and desktops, 1200px and up)
+} */
+
+@media (max-width: 576px) {
+    /*For smaller devices below 576px */
+    .rmenu {
+        display: block;
+    }
+    /* C1 ----------------------------------------------------------------------  */
+    .c2, .c3, .c4, .c5, .c6, .c7 {
+        padding: 50px 0;
+        text-align: center;
+    }
+    .c2 h3, .c3 h3, .c4 h3, .c5 h3, .c6 h3, .c7 h3 {
+        font-size: 26px;
+    }
+    .c2 p, .c3 p, .c4 p, .c5 p, .c6 p, .c7 p {
+        margin: 10px 0 50px;
+        font-size: 16px;
+    }
+    .wrapper, .c3 .wrapper {
+        width: calc(100% - 50px) !important;
+    }
+    header {
+        height: 70px;
+    }
+    header ul {
+        display: none;
+    }
+    .logo {
+        width: 175px;
+        height: 70px;
+        float: left;
+        padding: 0 0 0 48px;
+    }
+    .logo span {
+        font-size: 25px;
+    }
+    .dark, .light, .scroll-up:not(.menu-open) .trigger-menu-wrapper .light {
+        background: url('../images/wlogo.png') no-repeat center left;
+        background-size: auto 45px;
+    }
+    .c1 {
+        /* background: url('../images/hero/hero-image-1.jpg') no-repeat top 0 left -40px; */
+        background: url('../images/hero/hero-image-5.jpg') no-repeat top center;
+        background-size: cover;
+    }
+    .hero {
+        height: 525px;
+        padding-top: 50px;
+    }
+    .hero .container {
+        width: 100%;
+    }
+    .hero-quote h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .hero-quote p {
+        margin: 10px 0;
+        font-size: 17px;
+    }
+    /* Custom dropdown */
+    .search {
+        width: calc(100% - 38px) !important;
+        height: auto;
+        margin: 0 !important;
+        position: absolute;
+        top: 375px;
+        left: 19px;
+        padding: 0 !important;
+    }
+    .search .select {
+        width: calc(100% - 6px) !important;
+        height: 56px;
+        float: none;
+        padding: 6px !important;
+    }
+    .search .select:nth-child(3) {
+        width: 100% !important;
+    }
+    .select .dropdown-trigger span, .select .dropdown-content li {
+        font-size: 15px !important;
+    }
+    .select .dropdown-trigger {
+        height: 45px !important;
+        padding: 8px 25px 0 !important;
+    }
+    .dropdown-content li {
+        padding: 5px 25px 0 !important;
+        cursor: pointer;
+    }
+    .search button {
+        margin: 0 !important;
+        width: 100% !important;
+        height: 45px;
+        text-align: center;
+    }
+    /* Custom dropdown */
+    .hero-tab {
+        list-style: none;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        padding: 15px 0;
+    }
+    .hero-tab .wrapper {
+        width: 100%;
+    }
+    .hero-tab li {
+        width: 50%;
+        height: auto;
+        overflow: auto;
+        float: left;
+        padding: 15px 0;
+        font-size: 15px;
+        text-align: center !important
+    }
+    .hero-tab .tab-ico {
+        margin: 0 auto;
+        float: none;
+    }
+    .hero-tab p {
+        width: 100%;
+        float: none;
+        padding: 0;
+        font-size: 14px !important;
+    }
+    .hero-tab p:nth-of-type(1) {
+        margin-top: 5px;
+        font-weight: 600
+    }
+    .hero-tab span {
+        color: #fff;
+    }
+    /* C2 --------------------------------------------------------------------------------------- */
+    .c2 li {
+        width: calc(100% - 30px);
+        float: none;
+    }
+    .c2 .zoom-effect-container {
+        height: 179px !important;
+    }
+    /* C3 --------------------------------------------------------------------------------------- */
+    .c3 ul li, .c5 ul li {
+        width: 100%;
+        height: auto;
+        overflow: auto;
+    }
+    .c3 .card .zoom-effect-container, .c5 .card .zoom-effect-container {
+        height: 205px !important;
+    }
+    /* C4 --------------------------------------------------------------------------------------- */
+    .c4 p:nth-child(2) {
+        text-decoration: underline;
+    }
+    .c4 li {
+        width: 100%;
+        min-height: 150px;
+        float: none;
+        padding: 0;
+    }
+    .c4-shape {
+        margin: 0 auto 15px;
+        width: 175px;
+        height: 175px;
+    }
+    .c4-shape span {
+        width: 30px;
+        height: 30px;
+        right: 30px;
+        font-size: 16px;
+    }
+    .c4-shape i {
+        font-size: 50px;
+    }
+    /* C6 --------------------------------------------------------------------------------------- */
+    .c6 ul li {
+        width: 100%;
+        float: none;
+        padding: 15px;
+    }
+    .c6 .message {
+        width: 100%;
+        min-height: 100px;
+        padding: 20px;
+    }
+    .c6 .message p {
+        font-size: 15px;
+    }
+    .c6 p:last-child {
+        margin-top: 14px;
+    }
+    /* C7 --------------------------------------------------------------------------------------- */
+    .c7 {
+        background: url('../images/hero/hero-image-3.jpg') no-repeat;
+        background-size: cover;
+    }
+    .c7 .overlay {
+        padding: 50px 0;
+    }
+    /* Footer --------------------------------------------------------------------------------------- */
+    footer {
+        padding: 50px 0 0;
+    }
+    footer ul li {
+        width: 100%;
+        min-height: 50px;
+        padding: 5px;
+    }
+    footer ul li:nth-child(2), footer ul li:nth-child(3) {
+        margin: 25px 0;
+        width: 50%;
+    }
+    footer .logo {
+        height: 50px !important;
+    }
+    footer input, footer button {
+        font-size: 15px !important;
+    }
+    footer h3, footer p {
+        display: block !important;
+        height: auto;
+        overflow: auto;
+    }
+    footer ul li h3 {
+        margin-bottom: 15px;
+    }
+    .footer {
+        font-size: 15px;
+    }
+    /* Venues */
+    .venues, .details {
+        padding: 15px 0;
+    }
+    .r-hero {
+        /* background: url('../images/hero/hero-image-1.jpg') no-repeat top 0 left -40px; */
+        background: url('../images/hero/hero-image-5.jpg') no-repeat bottom center;
+        background-size: cover;
+    }
+    .r-hero .hero {
+        height: auto;
+        overflow: auto;
+    }
+    .page-title {
+        padding: 50px 0;
+    }
+    .page-title h1 {
+        font-size: 36px;
+    }
+    .page-sitemap {
+        padding: 5px 0;
+    }
+    .page-sitemap p {
+        height: 25px;
+        font-size: 16px;
+    }
+    /* drop down */
+    .filter {
+        height: 190px;
+        padding: 10px 0;
+    }
+    .dropdown-trigger, .dropdown-content {
+        margin-right: 0;
+        width: 100% !important;
+    }
+    .dropdown-trigger, .filter-of button {
+        margin-top: 10px;
+    }
+    .filter-of button {
+        width: 100%;
+    }
+    /* Grids */
+    .venues .wrapper {
+        width: calc(100% - 30px) !important;
+    }
+    .grid li {
+        width: 100% !important;
+        padding: 16px;
+        float: none;
+    }
+    .grid li .card {
+        width: 100% !important;
+    }
+    .grid .card .zoom-effect-container {
+        height: 220px !important;
+        background: url('../images/no-preview.png') center;
+        background-size: cover;
+    }
+    .grid .card .foot .title {
+        padding: 10px !important;
+    }
+    .grid .card .foot ol li {
+        padding: 10px 0 !important;
+    }
+}
+
+@media (min-width: 576px) {
+    /* Small devices (landscape phones, 576px and up) */
+}
+
+@media (min-width: 768px) {
+    /* Medium devices (tablets, 768px and up) */
+}
+
+@media (min-width: 992px) {
+    /* Large devices (desktops, 992px and up) */
+}
+
+@media (min-width: 1200px) {
+    /* Extra large devices (large desktops, 1200px and up) */
+}
