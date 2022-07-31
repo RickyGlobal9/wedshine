@@ -1,0 +1,76 @@
+._th_ft_block {float:center;margin:3px 3px 0;padding:3px 5px 5px 0}
+._th_ft_templates {
+  padding-top: 3px;
+  font-size:12px;
+}
+._th_ft_title {margin:0px 5px;padding-left: 20px;}
+._th_ft_item {
+	margin:5px;
+  float: left;
+  text-align: center;
+
+}
+._th_ft_item a {
+  text-decoration: none;
+}
+._th_ft_bottext {
+  padding-top: 5px;
+  text-align: center;
+  display:none;
+}
+._th_ft_image_link {
+border:1px solid #b9babc;width:143px;height:154px;background:#fff;display:block;
+margin-left:5px;
+}
+._th_ft_image_link img{
+border:0px;padding:62px 57px;max-width:100%;
+}
+._th_ft_type, ._th_ft_info {margin-left:5px;padding:3px 0;}
+._th_ft_type, ._th_ft_info, ._th_ft_downloads {width:149px;_width:150px;}
+._th_ft_type {display:none;}
+.clear2 {clear:both;}
+
+._th_ft_price, ._th_ft_details{
+    font-size: 12px;
+display: inline-block;
+       right: -9px;
+    top: 239px;
+
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #175386;
+    color: #ffffff !important;
+    background: #1c64a1;
+    padding: 4px 10px;
+}
+._th_ft_price:hover{
+background: #2A9AF4;
+}
+._th_ft_details:hover{
+background: #2A9AF4;
+}
+._th_ft_qtydown{
+color:#DB4315;
+}
+._th_ft_view_all_button{
+font-size: 16px;
+display: block;
+       right: -9px;
+    top: 239px;
+
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #175386;
+    color: #ffffff !important;
+    background: #1c64a1;
+    padding: 4px 10px;
+margin-left:20px;
+margin-right:95px;
+text-align:center;
+min-width:200px;
+}
+.button_bg{
+color: #ffffff !important;
+}
+._th_ft_view_all_button:hover{
+background: #2A9AF4;
+cursor:pointer;
+}
